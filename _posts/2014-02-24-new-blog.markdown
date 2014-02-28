@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Introductions"
+date: 2014-02-24 15:37:00
+categories: first
+tags: first, post, hello, world
+---
+
+Hey everyone,
+
+I just figured I'd make a first post here to introduce myself and kick off my new blog.
+
+First an formost I'm a student at Rochester Institute of Technology and am currently in my second year studying Applied Networking and Systems Administration. I really enjoy learning an as part of this I hope to start documenting things that I learn along the way here on this site. I have had experience with (in no certain order) Python, C++, Perl, and a large base of Windows, Mac, and Linux troubleshooting.
+
+If you want to look at any of my code, [my Github][personal-gh] has some of my work and will be constantly updated as I become more motivated to get my code online.
+
+[personal-gh]: https://github.com/rswiernik

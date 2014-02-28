@@ -1,0 +1,21 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Setup
+title:            Reed Swiernik
+description: 'reedswiernik.com'
+url:              http://www.reedswiernik.com
+
+author:
+  name:           'Reed Swiernik'
+  url:            https://twitter.com/reedingmaterial
+
+logo: 'http://www.gravatar.com/avatar/5752fd99d8afcc9473b2186d798afc12.png'
+resume: '/resume.pdf'
+
+paginate:	5
+paginate_path: "blog/page:num"
+version: 1.0
+
+github:	https://github.com/rswiernik
