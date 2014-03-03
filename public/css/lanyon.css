@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .foot {
 	border-top: 1px solid #eee;
-	margin-top: 10rem;
+	margin-top: 2rem;
 	margin-bottom: 5rem;
 }
 /*
@@ -303,7 +303,7 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
-  margin-bottom: 4em;
+  margin-bottom: 1em;
 }
 
 /* Blog post or page title */

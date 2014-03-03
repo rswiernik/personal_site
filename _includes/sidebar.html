@@ -12,7 +12,7 @@
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
-      `layout: page` in the front-matter. See readme for usage.
+      `layout: page` in the front-matter.
     {% endcomment %}
 
     {% assign pages_list = site.pages %}
@@ -32,10 +32,9 @@
   
   <div class="sidebar-item">
 	<p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
-	<p>
-
+		&copy; {{ site.time | date: '%Y' }}. All rights reserved.<br>
+		Built with <a href="http://www.jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/lanyon">Lanyon<a/>
+	</p>
   </div>
   
   <nav class="sidebar-nav">
