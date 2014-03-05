@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .foot {
-	border-top: 1px solid #eee;
+	border-top: 1px solid #ccc;
 	margin-top: 2rem;
 	margin-bottom: 5rem;
 }
@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #ccc;
 }
 .masthead-title {
   margin-top: 0;
@@ -487,6 +487,18 @@ a.pagination-item:hover {
   color: #f4bf75;
 }
 
+/* Dark Gray */
+.theme-base-11 .sidebar,
+.theme-base-11 .sidebar-toggle:active,
+.theme-base-11 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #737373;
+}
+/*.theme-base-11 .container a,
+*/
+.theme-base-11 .sidebar-toggle,
+.theme-base-11 .related-posts li a:hover {
+  color: #268bd2;
+}
 /* Dark Green */
 .theme-base-10 .sidebar,
 .theme-base-10 .sidebar-toggle:active,
