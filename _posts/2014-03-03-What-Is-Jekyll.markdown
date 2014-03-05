@@ -45,3 +45,30 @@ As you can see, the structure is relatively simple. With Jekyll, you have a basi
 This can be done with you favorite editor such as vim or nano, simply place what you've written in the _posts folder and you're all set.
 
 ## Lets look inside a post
+
+Composing a post is pretty simple, for example here's the markdown for the content you just read:
+
+```
+---
+layout: _post
+title: What is Jekyll and how do you use it?
+tag: markdown liquid
+---
+
+As you sit there surfing the web, you happen upon your friends website. It's simple, elegant, and looks nice. So you ask your friend how one might create such a site. His answer: Jekyll.
+
+Jekyll is a powerful static blog generator that combines ease of use with robust markdown tools. It's real power, however, comes with it's modularity.
+
+Your first step to making your is installing Jekyll. Since Jekyll is provided as a Ruby gem, it's as easy as making sure that your Ruby installation is up to date and executing the following commands:
+
+{% raw %}
+{% highlight bash %}
+~ $ gem install jekyll
+~ $ jekyll new my-new-blog
+~ $ cd my-new-blog
+{% endhighlight %}
+{% endraw %}
+
+```
+
+The front matter that I mentioned early is the material at the top of the post, notated by the '*---*' at the top of the file. Inside these tags you provide the basic information that identifies the page. 

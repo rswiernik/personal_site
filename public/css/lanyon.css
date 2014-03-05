@@ -87,10 +87,26 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.texture {
+	background-image:url('/public/background-texture.jpg');
+}
+
 .foot {
 	border-top: 1px solid #eee;
 	margin-top: 2rem;
 	margin-bottom: 5rem;
+}
+
+.ico-cont {
+	margin-left: 1.5rem;
+	margin-right: auto;
+}
+
+.icon {
+	display: inline-block;
+	border-radius: 0%;
+	max-height: 33px;
+	max-width: 32px;
 }
 /*
  * Masthead

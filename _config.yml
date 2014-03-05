@@ -9,7 +9,9 @@ url:              http://www.reedswiernik.com
 
 author:
   name:           'Reed Swiernik'
-  url:            https://twitter.com/reedingmaterial
+
+twitter:    https://twitter.com/reedingmaterial
+facebook:	https://facebook.com/reed.swiernik
 
 logo: 'http://www.gravatar.com/avatar/5752fd99d8afcc9473b2186d798afc12.png'
 resume: '/resume.pdf'
