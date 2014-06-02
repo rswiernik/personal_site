@@ -499,6 +499,7 @@ a.pagination-item:hover {
 .theme-base-11 .related-posts li a:hover {
   color: #268bd2;
 }
+
 /* Dark Green */
 .theme-base-10 .sidebar,
 .theme-base-10 .sidebar-toggle:active,
@@ -569,4 +570,23 @@ a.pagination-item:hover {
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Green */
+.theme-base-11 .container a,
+.theme-base-11 .sidebar-toggle,
+.theme-base- .related-posts li a:hover {
+  color: #13BB11;
+}
+
+/* Dark Gray */
+.theme-base-19 .sidebar,
+.theme-base-19 .sidebar-toggle:active,
+.theme-base-19 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #666;
+}
+.theme-base-19 .container a,
+.theme-base-19 .sidebar-toggle,
+.theme-base-19 .related-posts li a:hover {
+  color: #137711;
 }
