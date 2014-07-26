@@ -5,8 +5,10 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <a>{{ site.description }}</a>
+    <p>{{ site.description }}</p>
   </div>
+
+    <a class="sidebar-nav-item" href="/index.html">Blog</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -22,7 +24,7 @@
       {% endif %}
     {% endfor %}
 
-	<a class="sidebar-nav-item" href="{{ site.resume }}">Resume</a>
+    <a class="sidebar-nav-item" href="{{ site.resume }}">Resumé</a>
     <a class="sidebar-nav-item" href="{{ site.github }}">GitHub Page</a>
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>

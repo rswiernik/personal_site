@@ -115,6 +115,9 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
+  max-width: 480px;
+	margin-left: auto;
+	margin-right: auto;
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
@@ -319,7 +322,16 @@ a.sidebar-nav-item:focus {
 
 .page,
 .post {
+  padding: .5em;
   margin-bottom: 1em;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
+}
+.posts .post:hover {
+  padding-left: 1em;
+  border-left: solid 2px #ddd;
+  -webkit-transition-duration: .3s;
+          transition-duration: .3s;
 }
 
 /* Blog post or page title */
@@ -493,13 +505,11 @@ a.pagination-item:hover {
 .theme-base-11 #sidebar-checkbox:checked ~ .sidebar-toggle {
   background-color: #737373;
 }
-/*.theme-base-11 .container a,
-*/
+.theme-base-11 .container a,
 .theme-base-11 .sidebar-toggle,
 .theme-base-11 .related-posts li a:hover {
-  color: #268bd2;
+  color: #6CB05A;
 }
-
 /* Dark Green */
 .theme-base-10 .sidebar,
 .theme-base-10 .sidebar-toggle:active,
@@ -570,23 +580,4 @@ a.pagination-item:hover {
 .theme-base-0f .sidebar-toggle,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
-}
-
-/* Green */
-.theme-base-11 .container a,
-.theme-base-11 .sidebar-toggle,
-.theme-base- .related-posts li a:hover {
-  color: #13BB11;
-}
-
-/* Dark Gray */
-.theme-base-19 .sidebar,
-.theme-base-19 .sidebar-toggle:active,
-.theme-base-19 #sidebar-checkbox:checked ~ .sidebar-toggle {
-  background-color: #666;
-}
-.theme-base-19 .container a,
-.theme-base-19 .sidebar-toggle,
-.theme-base-19 .related-posts li a:hover {
-  color: #137711;
 }
