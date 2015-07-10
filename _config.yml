@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      pygments
 
 # Setup
 title:            Reed Swiernik
@@ -21,3 +21,5 @@ paginate_path: "blog/page:num"
 version: 1.0
 
 github:	https://github.com/rswiernik
+
+exclude: [build_site.sh]
