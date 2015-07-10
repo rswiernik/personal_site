@@ -23,7 +23,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 	echo
 	if [[ $REPLY =~ ^[Yy]$ ]]; then
 		echo "${BUILD_DIR}/.build_temp  ->  ${DEST_DIR}"
-		cp -r "${BUILD_DIR}/.build_temp" "${DEST_DIR}"
+		cp -r ${BUILD_DIR}/.build_temp/* "${DEST_DIR}"
 	else
 		echo "Aborting build..."
 	fi
