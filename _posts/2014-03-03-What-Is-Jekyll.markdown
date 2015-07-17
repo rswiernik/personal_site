@@ -2,6 +2,7 @@
 layout: post
 title: What is Jekyll and how do you use it?
 tag: markdown liquid
+categories: jekyll pixyll
 ---
 
 As you sit there surfing the web, you happen upon your friends website. It's simple, elegant, and looks nice. So you ask your friend how one might create such a site. His answer: Jekyll.
@@ -48,7 +49,7 @@ This can be done with you favorite editor such as vim or nano, simply place what
 
 Composing a post is pretty simple, for example here's the markdown for the content you just read:
 
-```
+{% highlight erb %}
 ---
 layout: _post
 title: What is Jekyll and how do you use it?
@@ -69,6 +70,6 @@ Your first step to making your is installing Jekyll. Since Jekyll is provided as
 {% endhighlight %}
 {% endraw %}
 
-```
+{% endhighlight %}
 
 The front matter that I mentioned early is the material at the top of the post, notated by the '*---*' at the top of the file. Inside these tags you provide the basic information that identifies the page. 
