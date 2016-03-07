@@ -45,3 +45,9 @@ bower_components
 # Ignore Fabric files
 fabfile*
 .htaccess
+
+# Build dirs
+.build
+
+# Sass-cache folders
+.sass-cache
