@@ -25,7 +25,7 @@ else
 		read -p "Would you like to copy to ${DEST_DIR}? [Y/n]" -n 1 -r
 		echo
 		if [[ $REPLY =~ ^[Yy]$ ]]; then
-			echo "${BUILD_DIR}/.build_temp  ->  ${DEST_DIR}"
+			echo "cp -r ${BUILD_DIR}/.build_temp/* \"${DEST_DIR}\""
 			cp -r ${BUILD_DIR}/.build_temp/* "${DEST_DIR}"
 		else
 			echo "Aborting build..."
