@@ -5,19 +5,26 @@ permalink: /about/
 ---
 
 Hey everyone,
-I'm a systems administrator and software developer based out of Rochester, NY. I enjoy messing with hardware, software, and simply tinkering with things to make it my own.
+I'm a systems administrator and software developer based out of San Francisco.
+I enjoy messing with software, hardware, and general tinkering with things to
+make them my own.
 
-I'm a student at Rochester Institute of Technology and am currently in my second year studying Applied Networking and Systems Administration. I really enjoy learning an as part of this I hope to start documenting things that I learn along the way here on this site. I have had experience with (in no certain order) Python, C, Perl, and a large base of Windows, Mac, and Linux troubleshooting.
+I recently graduated from Rochester Institute of Technology with a degree in
+Applied Networking and Systems Administration. The majority of my experience is
+in Python, C, Perl, and a wide variety of Linux and Windows systems adminstration
+and automation. I currently work for [Dropbox](http://www.dropbox.com) on the
+Physical Infrastructue Tooling team working on our system installer.
 
-If you want to look at any of my code, ([my Github](http://github.com/rswiernik)) has some of my work and will be constantly updated as I become more motivated to get my code online.
+If you want to look at any of my code, [my Github](http://github.com/rswiernik)
+has some of my work!
 
 
 This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
 ([@4lpine](https://twitter.com/4lpine)).
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+Checkout the [Github repository](https://github.com/johnotander/pixyll) to
+download it, request a feature, report a bug, or contribute. It's free, and open
+source ([MIT](http://opensource.org/licenses/MIT)).
 
 Thanks to the following:
 
