@@ -15,3 +15,6 @@ Alright, before you think I'm just romancing a piece of everyday office equipmen
 
 It's odd, really, to think that so many people put so little thought into one of
 the most heavily used devices that they own. Think about it.
+
+
+![keyboard](http://i.imgur.com/hVnT4K5.jpg)
