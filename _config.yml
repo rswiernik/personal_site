@@ -10,7 +10,7 @@ url:         "http://reedswiernik.com"
 google_analytics: true
 
 # Optional features
-animated:           false
+animated:           true
 show_related_posts: true
 show_post_footers:  false
 show_social_icons:  true
