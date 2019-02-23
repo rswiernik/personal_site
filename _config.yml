@@ -1,6 +1,6 @@
 # Site settings
 title:       Reed Swiernik
-email:       reed.swiernik@gmail.com
+email:       me@reedswiernik.com
 author:      Reed Swiernik
 description: "A place for me to write about technical topics and other random things."
 baseurl:     ""
@@ -30,6 +30,8 @@ bitcoin_url:
 paypal_url:
 flattr_button:
 
+enable_rss: false
+
 # Post sharing icons
 show_sharing_icons: false
 share_text: 'Share this post!'
@@ -52,5 +54,5 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
-gems: [jekyll-paginate]
-#  - jekyll-sitemap
+
+exclude: ["build_site.sh"]
