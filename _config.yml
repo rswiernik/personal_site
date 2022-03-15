@@ -1,3 +1,8 @@
+exclude: [
+  "build_site.sh",
+  "LICENSE_pixyll.txt",
+]
+
 # Site settings
 title:       Reed Swiernik
 email:       reed.swiernik@gmail.com
