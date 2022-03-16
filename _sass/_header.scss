@@ -38,7 +38,7 @@
 .posts .post a:hover .post-title,
 .posts .post a:hover .post-summary {
   opacity: 0.75;
-  color: #0076df;
+  color: $link-color;
 }
 
 .site-header {
