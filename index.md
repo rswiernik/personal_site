@@ -6,7 +6,7 @@ permalink: /
 
 I'm Reed, a Site Reliability and Software Engineer based out of San Francisco.
 When not working, you'll find me [cycling](https://www.strava.com/athletes/18431814),
-cosplaying as a photography, or messing with my keyboards.
+cosplaying as a photographer, or messing with my keyboards.
 
 I currently work at <a class="plum" href="https://plum.wine">Plum</a> where I wear
 many different hats. Over my time here I've worked on:
@@ -23,4 +23,3 @@ Previously I was at [Dropbox](https://dropbox.com) where I spent my tenure worki
 * Full Disk Encryption
 * Time Series Data Monitoring
 * Caching Solutions (Mainly Memcache)
-
