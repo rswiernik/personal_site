@@ -61,8 +61,14 @@ $nav-color: $body-color;
 $nav-hover-color: darken($nav-color, 40%);
 
 // Links
-$link-color: #5f8fe1;
-$link-hover-color: darken($link-color, 20%);
+$link-color: #1f6c46;
+$link-hover-color: lighten($link-color, 10%);
+
+$plum-color: #7A6EA1;
+$plum-hover-color: #574f72;
+
+$dropbox-color: #007be8;
+$dropbox-hover-color: darken($dropbox-color, 20%);
 
 // Breakpoints
 $breakpoint-md: '(min-width: 52em)';

@@ -9,3 +9,13 @@ a:active {
   color: $link-hover-color;
   text-decoration: none;
 }
+
+a.plum {
+  color: $plum-color;
+}
+
+a.plum:hover,
+a.plum:active,
+a.plum:focus {
+  color: $plum-hover-color;
+}
