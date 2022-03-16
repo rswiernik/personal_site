@@ -24,6 +24,8 @@ img {
 }
 
 body {
+               color: $body-color;
+    background-color: $body-bg-color;
           box-sizing: border-box;
      -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
