@@ -1,7 +1,5 @@
-exclude: [
-  "build_site.sh",
-  "LICENSE_pixyll.txt",
-]
+exclude:
+  - build_site.sh
 
 # Site settings
 title:       Reed Swiernik
@@ -59,5 +57,3 @@ permalink:    pretty
 paginate:     4
 sass:
   compressed: true
-
-exclude: ["build_site.sh"]
