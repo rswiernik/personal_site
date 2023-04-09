@@ -49,6 +49,7 @@ fabfile*
 
 # Build dirs
 .build
+.build_output
 
 # Sass-cache folders
 .sass-cache
