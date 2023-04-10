@@ -13,7 +13,7 @@ working on the Platform Infrastructure team. Over my time at Dutchie I've worked
 tools that make deploying services to Kubernetes and working with cloud infrastructure a breeze.
 
 I was previously a part of the software team at <a class="plum" href="https://plum.wine">Plum</a> wearing
-many different hats. Over my time here I've worked on:
+many different hats. Over my time there I worked on:
 
 * Backend API and service development in Python
 * AWS Infrastructure Automation w/ Terraform, Ansible, and Packer
@@ -24,7 +24,7 @@ many different hats. Over my time here I've worked on:
 Previously I was a Site Reliability Engineer at <a class="dropbox" href="https://dropbox.com">Dropbox</a>
 where I spent my tenure working on:
 
-* Server Fleet Management
+* On-prem Server Fleet Management Tools
 * Full Disk Encryption
-* Time Series Data Monitoring
+* Dropbox's in-house Time Series Monitoring Solution
 * Caching Solutions (Mainly Memcache)
