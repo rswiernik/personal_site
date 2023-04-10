@@ -52,23 +52,22 @@ $darken-2: rgba(#000,.125) !default;
 $darken-3: rgba(#000,.25) !default;
 $darken-4: rgba(#000,.5) !default;
 
+// Links
+$link-color: #1f6c46;
+$link-hover-color: lighten($link-color, 10%);
+
+$plum-color: #7A6EA1;
+$dropbox-color: #0061FE;
+$dutchie-color: #F15666;
+
 // Body
 $body-color: #c9cacc;
 $body-bg-color: #1d1f21;
 
 // Header
 $nav-color: $body-color;
-$nav-hover-color: darken($nav-color, 40%);
+$nav-hover-color: $link-color;
 
-// Links
-$link-color: #1f6c46;
-$link-hover-color: lighten($link-color, 10%);
-
-$plum-color: #7A6EA1;
-$plum-hover-color: #574f72;
-
-$dropbox-color: #007be8;
-$dropbox-hover-color: darken($dropbox-color, 20%);
 
 // Breakpoints
 $breakpoint-md: '(min-width: 52em)';

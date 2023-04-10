@@ -6,16 +6,10 @@ a:hover,
 a:focus,
 a:active {
   border: 0;
-  color: $link-hover-color;
   text-decoration: none;
+  filter: brightness(140%);
 }
 
-a.plum {
-  color: $plum-color;
-}
-
-a.plum:hover,
-a.plum:active,
-a.plum:focus {
-  color: $plum-hover-color;
-}
+a.plum {color: $plum-color;}
+a.dropbox {color: $dropbox-color;}
+a.dutchie {color: $dutchie-color;}
